@@ -599,6 +599,8 @@
     .newsRow .newsColumn,
     .news-grid .newsColumn {
         width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     .newsSort {
         margin-left: 0px !important;
@@ -656,7 +658,7 @@
     }
     section.gradint-bg {
        
-        padding: 46px 20px 59px;
+        padding: 46px 43px 59px;
     }
     .footer .footer-row {
        
@@ -666,7 +668,7 @@
        margin: 0px auto 44px;
     }
     .footer-content .footmenu ul {
-       gap: 10px;
+       gap: 23px;
     }
     .footer-content .foot_media ul {
         gap: 10px;
@@ -690,7 +692,11 @@
         padding: 24px 16px 24px;
     }
     .img_button_row {
-        row-gap: 24px;
+        
+            row-gap: 0;
+            padding-left: 86px;
+            padding-right: 86px;
+        
         .img_btn_col .img_block .allBtn {
             bottom: -14px;
         }
