@@ -8,10 +8,11 @@ $('.owl-general .owl-carousel').owlCarousel({
     margin: 10,
     nav: true,
 	 autoWidth:true,
+     center:true,
 	 items: 2,
     navText: [
-        '<img src="./img/slider-arrow.svg">',
-        '<img src="./img/slider-arrow.svg">'
+        '<img src="./img/slider-arrow-left.png">',
+        '<img src="./img/slider-arrow-right.png">'
     ],
     navContainer: '.owl-general .custom-nav',
     /*responsive:{
