@@ -5,8 +5,8 @@
 
 @media (max-width:1450px) {
     .main_header .nav_bottom {
-        padding: 0px 54px 0px 30px;
-        gap: 50px;
+        padding: 0px 0px 0px 0px;
+       
     }
 }
 @media (min-width:1200px) and (max-width:1366px){
@@ -44,6 +44,22 @@
     }   
 }
 @media (max-width:767px) {
+    .form-wrap .row .fr-wrap {
+        display: block; 
+    }
+    .form-wrap .row .fr-wrap select.form-control {
+        max-width: 100%;
+        width: 100%;
+     }
+     .search-box, .form-wrap .row .fr-wrap input.form-control {
+        max-width: 100%;
+       
+        width: 100%;
+    }
+    .no-found-info .larger-text {
+        font-size: 120px;
+       
+    }
     .top-Title h2 {
         font-size: 24px;
         word-break: break-word;
@@ -1118,7 +1134,7 @@
     }
     .top_search {
         width: 100%;
-        padding: 20px 0px 0px;
+        padding: 2px 0px 0px;
     }
     header .searchbardiv {
         max-width: 100%;
@@ -1186,8 +1202,12 @@
         display: flex;
         position: relative;
         margin-right: 0px;
-       
+        justify-content: flex-end;
         
+    }
+    .main_header .navbar .container-fluid, .main_header .navbar .container {
+        align-items: center;
+        flex-wrap: initial;
     }
     .top_search.destop-serch {
         display: none;
@@ -1496,7 +1516,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     /* Mobile search box aligned to the right */
     .top_search.mobile-srch {
         display: block;
@@ -1551,5 +1571,16 @@
     .navbar-toggler {
       display: inline-block;
       margin-left: 15px;
+    }
+    .main_header .top_search .btn.btn-default {
+        padding: 17px 2px 11px 10px;
+    }
+    .mobile-srch {
+        display: none;
+        transition: all 0.3s ease; /* Optional for smooth appearance */
+    }
+    
+    .mobile-srch.active {
+        display: block;
     }
   }
